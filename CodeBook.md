@@ -7,10 +7,10 @@ The `tidyData.txt` data file is a text file, containing space-separated values.
 The first row contains the names of the variables(Column Headers), and the following rows contain the values of these variables.
 
 ## Variables Involved
-	### subject
+	## subject
 	Subject identifier, integer, ranges from 1 to 30.
 	
-	### activity
+	## activity
 	Activity identifier, string with 6 possible values: 
 		- `WALKING`: subject was walking
 		- `WALKING_UPSTAIRS`: subject was walking upstairs
@@ -19,7 +19,7 @@ The first row contains the names of the variables(Column Headers), and the follo
 		- `STANDING`: subject was standing
 		- `LAYING`: subject was laying
 	
-	#### Time-domain signal values
+	## Time-domain signal values
 	Average time-domain body acceleration in the X, Y and Z directions:
 		- `timeDomainBodyAccelerometerMeanX`
 		- `timeDomainBodyAccelerometerMeanY`
@@ -90,7 +90,7 @@ The first row contains the names of the variables(Column Headers), and the follo
 		- `timeDomainBodyGyroscopeJerkMagnitudeMean`
 		- `timeDomainBodyGyroscopeJerkMagnitudeStandardDeviation`
 		
-	#### Frequency-domain signals
+	## Frequency-domain signals
 	Average frequency-domain body acceleration in the X, Y and Z directions:
 		- `frequencyDomainBodyAccelerometerMeanX`
 		- `frequencyDomainBodyAccelerometerMeanY`
