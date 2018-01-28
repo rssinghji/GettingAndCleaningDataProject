@@ -1,4 +1,4 @@
-#Project Getting and Cleaning Data Code Book
+# Project Getting and Cleaning Data Code Book
 This file contains the data to indicate all the variables and summaries calculated, along with units, and any other relevant information. The data set referred is finalized
 in 'tidyData.txt' file.
 
@@ -7,10 +7,10 @@ The `tidyData.txt` data file is a text file, containing space-separated values.
 The first row contains the names of the variables(Column Headers), and the following rows contain the values of these variables.
 
 ## Variables Involved
-	### `subject`
+	### subject
 	Subject identifier, integer, ranges from 1 to 30.
 	
-	### `activity`
+	### activity
 	Activity identifier, string with 6 possible values: 
 		- `WALKING`: subject was walking
 		- `WALKING_UPSTAIRS`: subject was walking upstairs
