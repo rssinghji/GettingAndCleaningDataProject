@@ -1,4 +1,4 @@
-#Project Getting and Cleaning Data - README
+# Project Getting and Cleaning Data - README
 This project does cleaning and retreival of data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 This data is collected from the accelerometer and gyroscope of the Samsung Galaxy S smartphone. The analysis for cleaning, merging and preparing tidy data set is then performed.
 
@@ -12,12 +12,12 @@ There are 4 files in this repo:
 ## 4. tidyData.txt
 		Which is the final result of the analysis.
 		
-#Background
+# Background
 The source data set that this project was based on was obtained from the Human Activity Recognition Using Smartphones Data Set (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#)
 There are six activities (WALKING, WALKING\_UPSTAIRS, WALKING\_DOWNSTAIRS, SITTING, STANDING, LAYING) involved with smartphone. Using its embedded accelerometer and gyroscope,
 3-axial linear acceleration and 3-axial angular velocity is captured as data point. The obtained dataset has been randomly partitioned into two sets, test and training data.
 
-#Process
+# Process
 The R script `run_analysis.R` is used to create the tidy data set. It retrieves the source data set zip file and analyse and process it to create the final tidy data set which is clean.
 Steps involved are:
 	## Load the 'dplyr' package/library.
