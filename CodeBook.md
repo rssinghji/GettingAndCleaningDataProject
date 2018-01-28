@@ -90,7 +90,7 @@ The first row contains the names of the variables(Column Headers), and the follo
 		- `timeDomainBodyGyroscopeJerkMagnitudeMean`
 		- `timeDomainBodyGyroscopeJerkMagnitudeStandardDeviation`
 		
-### Frequency-domain signals
+### Frequency-domain signal values
 	Average frequency-domain body acceleration in the X, Y and Z directions:
 		- `frequencyDomainBodyAccelerometerMeanX`
 		- `frequencyDomainBodyAccelerometerMeanY`
